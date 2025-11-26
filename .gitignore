@@ -1,0 +1,111 @@
+# ============================
+#  n8n Git Versioning Project
+# ============================
+
+############################################
+# ENV / Secrets
+############################################
+
+# Local environment files (never commit secrets)
+.env
+*.env
+.env.*
+
+
+############################################
+# OS-specific files
+############################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux swap files
+*.swp
+*.swo
+
+
+############################################
+# Editor / IDE files
+############################################
+
+# VS Code settings
+.vscode/
+.history/
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+
+############################################
+# Python (for app/ scripts)
+############################################
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments inside app/
+app/venv/
+app/.venv/
+
+# Jupyter Notebook checkpoints (falls verwendet)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+
+############################################
+# Node / JS (falls später im app/ genutzt)
+############################################
+
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+
+############################################
+# Docker internal folders (if accidentally created)
+############################################
+
+n8n_data/
+postgres_data/
+
+
+############################################
+# Logs
+############################################
+
+logs/
+*.log
+*.out
+
+
+############################################
+# Build / Dist Artifacts
+############################################
+
+dist/
+build/
+
+
+############################################
+# Workflow management
+############################################
+
+# Workflows SHOULD be versioned, so we DO NOT ignore:
+# workflows/
+#
+
+
+############################################
+# Shell leftovers
+############################################
+
+*.sh~
+*.bat~
